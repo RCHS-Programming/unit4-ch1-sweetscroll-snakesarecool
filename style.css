@@ -5,14 +5,14 @@ body, html {
   color: White;
 }
 
-.cd-logo, .kitchen-equipment, .cake-ingredients {
+.cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #642580;
   background-size: cover;
   
-  background-attachment: fixed; 
+  background-attachment: scroll; 
   min-height: 50%;
   opacity: 0.9;
 }
@@ -62,7 +62,7 @@ h3 {
 }
 
 .layer-cake {
-  background-image: url()
+  background-image: url("img_parallax.jpg")
 }
 
 .kitchen-equipment {
@@ -72,4 +72,16 @@ h3 {
 .cake-ingredients {
   background-image: url("ingredients.jpg") 
  
+}
+
+.bowl-of-cakemix {
+  background-attachment: url("mixer.jpg")
+}
+
+.cake-in-oven {
+  background-attachment: url("oven.jpg")
+}
+
+.decorated-cake {
+  background-attachment: url("rosecake.jpg")
 }
