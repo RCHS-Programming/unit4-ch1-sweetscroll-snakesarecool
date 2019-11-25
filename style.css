@@ -55,11 +55,11 @@ h3 {
   letter-spacing: 10px; 
 }
 
-@media only screen and (max-device-width: 1024px) {
+/* @media only screen and (max-device-width: 1024px) {
   .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
     background-attachment: scroll;
   }
-}
+} */
 
 .layer-cake {
   background-image: url("img_parallax.jpg")
